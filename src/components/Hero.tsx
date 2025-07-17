@@ -45,7 +45,7 @@ const Hero = () => {
           {/* Logo */}
           <div className="mb-8 flex justify-center">
             <img 
-              src="heaven-scoops-sweet-treats/uploads/98e62b7b-452a-46cd-b906-d87756d728fb.png" 
+              src="/heaven-scoops-sweet-treats/images/98e62b7b-452a-46cd-b906-d87756d728fb.png" 
               alt="Ice Cream Heaven Logo" 
               className="w-64 h-64 object-contain drop-shadow-lg rounded-full bg-white/30 backdrop-blur-sm p-4"
             />
