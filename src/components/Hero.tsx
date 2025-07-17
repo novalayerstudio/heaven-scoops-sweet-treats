@@ -45,7 +45,7 @@ const Hero = () => {
           {/* Logo */}
           <div className="mb-8 flex justify-center">
             <img 
-              src="/lovable-uploads/98e62b7b-452a-46cd-b906-d87756d728fb.png" 
+              src="heaven-scoops-sweet-treats/uploads/98e62b7b-452a-46cd-b906-d87756d728fb.png" 
               alt="Ice Cream Heaven Logo" 
               className="w-64 h-64 object-contain drop-shadow-lg rounded-full bg-white/30 backdrop-blur-sm p-4"
             />
@@ -81,8 +81,12 @@ const Hero = () => {
             </Button>
             <Button 
               variant="outline" 
+               onClick={() => {
+                const el = document.getElementById('story');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
               size="lg"
-              className="border-2 border-blue-400 text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="border-2 border-green-400 text-green-600 hover:bg-green-50 px-8 py-6 text-lg rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               Our Story
             </Button>
