@@ -5,7 +5,7 @@ import { Heart, Star, Gift, Zap } from "lucide-react";
 
 const Support = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-pink-50 via-white to-green-50">
+    <section id="support" className="py-20 bg-gradient-to-br from-pink-50 via-white to-blue-50">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           {/* Section header */}
@@ -17,7 +17,7 @@ const Support = () => {
               Your support helps Samuel build more than just an ice cream shop — 
               you're helping create a community gathering place that will bring joy for years to come.
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-green-500 mx-auto rounded-full mt-6"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-blue-500 mx-auto rounded-full mt-6"></div>
           </div>
           
           {/* Impact cards */}
@@ -36,8 +36,8 @@ const Support = () => {
             
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Gift className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <Gift className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Youth Empowerment</h3>
                 <p className="text-gray-600 text-sm">
@@ -60,7 +60,7 @@ const Support = () => {
           </div>
           
           {/* Main CTA */}
-          <div className="bg-gradient-to-r from-pink-500 to-green-500 rounded-3xl p-8 shadow-2xl text-white">
+          <div className="bg-gradient-to-r from-pink-500 to-blue-500 rounded-3xl p-8 shadow-2xl text-white">
             <h3 className="text-3xl font-bold mb-4">Be Part of Something Sweet</h3>
             <p className="text-lg mb-8 opacity-90">
               Every donation brings us one step closer to opening our doors and serving our community

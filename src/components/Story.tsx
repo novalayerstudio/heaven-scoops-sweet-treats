@@ -1,10 +1,10 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Coffee, IceCream } from "lucide-react";
+import { Users, Coffee, IceCreamCone } from "lucide-react";
 
 const Story = () => {
   return (
-    <section className="py-20 bg-white">
+    <section id="story" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section header */}
@@ -12,7 +12,7 @@ const Story = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
               Samuel's Dream
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-green-500 mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-blue-500 mx-auto rounded-full"></div>
           </div>
           
           {/* Story content */}
@@ -36,9 +36,9 @@ const Story = () => {
             </div>
             
             <div className="relative">
-              <div className="bg-gradient-to-br from-pink-50 to-green-50 rounded-3xl p-8 shadow-xl">
+              <div className="bg-gradient-to-br from-pink-50 to-blue-50 rounded-3xl p-8 shadow-xl">
                 <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-pink-200 to-green-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <div className="w-32 h-32 bg-gradient-to-br from-pink-200 to-blue-200 rounded-full mx-auto mb-6 flex items-center justify-center">
                     <Users className="w-16 h-16 text-gray-700" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">Community First</h3>
@@ -55,7 +55,7 @@ const Story = () => {
             <Card className="border-0 shadow-xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-pink-200 rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <IceCream className="w-8 h-8 text-pink-600" />
+                  <IceCreamCone className="w-8 h-8 text-pink-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Summer Treats</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -65,10 +65,10 @@ const Story = () => {
               </CardContent>
             </Card>
             
-            <Card className="border-0 shadow-xl bg-gradient-to-br from-green-50 to-green-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-blue-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-green-200 rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <Coffee className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-blue-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <Coffee className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Winter Warmth</h3>
                 <p className="text-gray-600 leading-relaxed">

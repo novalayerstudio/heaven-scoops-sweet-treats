@@ -1,5 +1,5 @@
 
-import { Heart, MapPin, Mail } from "lucide-react";
+import { IceCreamCone, MapPin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo and main content */}
           <div className="mb-8">
-            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-green-400 bg-clip-text text-transparent">
+            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent">
               Ice Cream Heaven
             </h3>
             <p className="text-gray-300 max-w-2xl mx-auto leading-relaxed">
@@ -24,7 +24,7 @@ const Footer = () => {
               <span className="text-gray-300">South Africa</span>
             </div>
             <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-green-400" />
+              <Mail className="w-4 h-4 text-blue-400" />
               <span className="text-gray-300">Coming Soon</span>
             </div>
           </div>
@@ -33,10 +33,10 @@ const Footer = () => {
           <div className="border-t border-gray-700 pt-8">
             <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
               <p className="text-gray-400 text-sm">
-                © 2024 Ice Cream Heaven. Made with love by Samuel.
+                © 2025 Ice Cream Heaven. Made with love by Samuel.
               </p>
               <div className="flex items-center gap-2 text-pink-400">
-                <Heart className="w-4 h-4" />
+                <IceCreamCone className="w-4 h-4" />
                 <span className="text-sm">Building dreams, one scoop at a time</span>
               </div>
             </div>
