@@ -7,7 +7,7 @@ const Hero = () => {
   const [sprinkles, setSprinkles] = useState<Array<{id: number, color: string, left: number, delay: number}>>([]);
 
   useEffect(() => {
-    const sprinkleColors = ['bg-pink-400', 'bg-blue-400', 'bg-yellow-400', 'bg-green-400', 'bg-purple-400', 'bg-orange-400'];
+    const sprinkleColors = ['bg-pink-700', 'bg-blue-700', 'bg-yellow-700', 'bg-green-700', 'bg-purple-700', 'bg-orange-700'];
     const newSprinkles = Array.from({ length: 30 }, (_, i) => ({
       id: i,
       color: sprinkleColors[Math.floor(Math.random() * sprinkleColors.length)],
