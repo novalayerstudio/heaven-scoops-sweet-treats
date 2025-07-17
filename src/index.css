@@ -112,4 +112,37 @@ All colors MUST be HSL.
   * {
     scroll-behavior: smooth;
   }
+
+  /* Sprinkles animation */
+  @keyframes sprinkle-fall {
+    0% {
+      transform: translateY(-100vh) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  .sprinkle {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    border-radius: 2px;
+    animation: sprinkle-fall linear infinite;
+    pointer-events: none;
+  }
+
+  .sprinkle:nth-child(odd) {
+    animation-duration: 3s;
+  }
+
+  .sprinkle:nth-child(even) {
+    animation-duration: 4s;
+  }
+
+  .sprinkle:nth-child(3n) {
+    animation-duration: 2.5s;
+  }
 }

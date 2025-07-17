@@ -5,7 +5,7 @@ import { Heart, Star, Gift, Zap } from "lucide-react";
 
 const Support = () => {
   return (
-    <section id="support" className="py-20 bg-gradient-to-br from-pink-50 via-white to-blue-50">
+    <section id="support" className="py-20 bg-blue-50">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           {/* Section header */}
@@ -17,7 +17,7 @@ const Support = () => {
               Your support helps Samuel build more than just an ice cream shop — 
               you're helping create a community gathering place that will bring joy for years to come.
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-blue-500 mx-auto rounded-full mt-6"></div>
+            <div className="w-24 h-1 bg-pink-500 mx-auto rounded-full mt-6"></div>
           </div>
           
           {/* Impact cards */}
@@ -60,7 +60,7 @@ const Support = () => {
           </div>
           
           {/* Main CTA */}
-          <div className="bg-gradient-to-r from-pink-500 to-blue-500 rounded-3xl p-8 shadow-2xl text-white">
+          <div className="bg-pink-500 rounded-3xl p-8 shadow-2xl text-white">
             <h3 className="text-3xl font-bold mb-4">Be Part of Something Sweet</h3>
             <p className="text-lg mb-8 opacity-90">
               Every donation brings us one step closer to opening our doors and serving our community

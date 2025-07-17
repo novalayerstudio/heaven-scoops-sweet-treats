@@ -12,7 +12,7 @@ const Story = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
               Samuel's Dream
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-blue-500 mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-pink-500 mx-auto rounded-full"></div>
           </div>
           
           {/* Story content */}
@@ -36,9 +36,9 @@ const Story = () => {
             </div>
             
             <div className="relative">
-              <div className="bg-gradient-to-br from-pink-50 to-blue-50 rounded-3xl p-8 shadow-xl">
+              <div className="bg-pink-50 rounded-3xl p-8 shadow-xl">
                 <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-pink-200 to-blue-200 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <div className="w-32 h-32 bg-pink-200 rounded-full mx-auto mb-6 flex items-center justify-center">
                     <Users className="w-16 h-16 text-gray-700" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">Community First</h3>
@@ -52,7 +52,7 @@ const Story = () => {
           
           {/* Vision cards */}
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border-0 shadow-xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <Card className="border-0 shadow-xl bg-pink-50 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-pink-200 rounded-full mx-auto mb-6 flex items-center justify-center">
                   <IceCreamCone className="w-8 h-8 text-pink-600" />
@@ -65,7 +65,7 @@ const Story = () => {
               </CardContent>
             </Card>
             
-            <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-blue-100 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <Card className="border-0 shadow-xl bg-blue-50 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-blue-200 rounded-full mx-auto mb-6 flex items-center justify-center">
                   <Coffee className="w-8 h-8 text-blue-600" />

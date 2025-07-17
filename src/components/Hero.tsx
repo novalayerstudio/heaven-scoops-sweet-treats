@@ -1,10 +1,38 @@
 
 import { Button } from "@/components/ui/button";
 import { Heart, MapPin } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [sprinkles, setSprinkles] = useState<Array<{id: number, color: string, left: number, delay: number}>>([]);
+
+  useEffect(() => {
+    const sprinkleColors = ['bg-pink-400', 'bg-blue-400', 'bg-yellow-400', 'bg-green-400', 'bg-purple-400', 'bg-orange-400'];
+    const newSprinkles = Array.from({ length: 30 }, (_, i) => ({
+      id: i,
+      color: sprinkleColors[Math.floor(Math.random() * sprinkleColors.length)],
+      left: Math.random() * 100,
+      delay: Math.random() * 4
+    }));
+    setSprinkles(newSprinkles);
+  }, []);
+
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-pink-50 via-white to-blue-50 flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen bg-pink-50 flex items-center justify-center overflow-hidden">
+      {/* Animated sprinkles */}
+      <div className="absolute inset-0 pointer-events-none">
+        {sprinkles.map(sprinkle => (
+          <div
+            key={sprinkle.id}
+            className={`sprinkle ${sprinkle.color}`}
+            style={{
+              left: `${sprinkle.left}%`,
+              animationDelay: `${sprinkle.delay}s`
+            }}
+          />
+        ))}
+      </div>
+
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-10 w-32 h-32 bg-pink-200 rounded-full blur-xl"></div>
@@ -26,7 +54,7 @@ const Hero = () => {
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 leading-tight">
             Welcome to
-            <span className="block text-transparent bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text">
+            <span className="block text-pink-500">
               Ice Cream Heaven
             </span>
           </h1>
