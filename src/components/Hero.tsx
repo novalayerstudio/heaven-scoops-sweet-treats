@@ -27,7 +27,7 @@ const Hero = () => {
             className={`sprinkle ${sprinkle.color}`}
             style={{
               left: `${sprinkle.left}%`,
-              animationDelay: `${sprinkle.delay}s`
+              animationDelay: `-${sprinkle.delay}s`
             }}
           />
         ))}
