@@ -67,7 +67,7 @@ const Hero = () => {
           {/* Location badge */}
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg mb-8">
             <MapPin className="w-5 h-5 text-pink-500" />
-            <span className="text-gray-700 font-medium">South Africa</span>
+            <span className="text-gray-700 font-medium">South Africa, Bakenberg</span>
           </div>
           
           {/* CTA buttons */}

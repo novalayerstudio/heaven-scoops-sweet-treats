@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Story from "@/components/Story";
 import Support from "@/components/Support";
 import Footer from "@/components/Footer";
+import Help from "@/components/Help";
 
 const Index = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const Index = () => {
       </div>
       <Story />
       <Support />
+      <Help />
       <Footer />
     </div>
   );

@@ -4,7 +4,8 @@ import { IceCreamCone, Menu, X } from "lucide-react";
 const navLinks = [
   { label: "Home", id: "hero" },
   { label: "Our Story", id: "story" },
-  { label: "Support Us", id: "support" }
+  { label: "Support Us", id: "support" },
+  { label: "Want to Help?", id: "help"}
 ];
 
 const Navbar = () => {

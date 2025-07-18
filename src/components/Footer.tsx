@@ -12,7 +12,7 @@ const Footer = () => {
               Ice Cream Heaven
             </h3>
             <p className="text-gray-300 max-w-2xl mx-auto leading-relaxed">
-              Building a sweet community gathering place in South Africa, 
+              Building a sweet community gathering place in Bakenberg South Africa, 
               where every scoop brings people together and every visit feels like home.
             </p>
           </div>
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-pink-400" />
-              <span className="text-gray-300">South Africa</span>
+              <span className="text-gray-300">South Africa, Bakenberg</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-blue-400" />
