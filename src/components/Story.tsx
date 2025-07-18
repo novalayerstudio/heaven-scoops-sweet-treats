@@ -20,7 +20,7 @@ const Story = () => {
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
                 My name is Samuel, and I'm starting Ice Cream Heaven, a youth-led business based in South Africa. 
-                Growing up, I always dreamed of owning something of my own — something that would bring joy to others.
+                Growing up, I always dreamed of owning something of my own, something that would bring joy to others.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 In my area, there are no ice cream shops nearby, and I saw that as both a need and an opportunity. 
@@ -31,7 +31,7 @@ const Story = () => {
                 and feel a sense of warmth even in the cold months when I'll also be baking and serving hot drinks.
               </p>
               <p className="text-xl font-semibold text-pink-600">
-                It's more than just a shop — it's a community spot.
+                It's more than just a shop, it's a community spot.
               </p>
             </div>
             
