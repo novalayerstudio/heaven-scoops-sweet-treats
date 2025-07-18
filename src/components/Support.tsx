@@ -69,8 +69,7 @@ const Support = () => {
               size="lg"
               className="bg-white text-pink-600 hover:bg-gray-50 px-8 py-6 text-lg rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 font-bold"
               onClick={() => {
-                // Placeholder for donation link - user will provide this
-                alert("Donation link will be provided by Samuel");
+              window.open("https://www.backabuddy.co.za/campaign/help-samuel-build-an-ice-cream-shop-in-mokopane", "_blank");
               }}
             >
               <Heart className="w-5 h-5 mr-2" />
