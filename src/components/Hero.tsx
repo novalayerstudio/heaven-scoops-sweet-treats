@@ -74,6 +74,10 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
+              onClick={() => {
+                const el = document.getElementById('support');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-6 text-lg rounded-full shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               <Heart className="w-5 h-5 mr-2" />
